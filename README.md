@@ -1,7 +1,7 @@
 # Upgrad_Cricket_Challenge
 Upgrad Cricket Challenge - Analysis of Cricket data for India and Australia series Feb - March 2019
 
-# Problem Statement - 
+### Problem Statement - 
 Analyse the ODI match data to predict
 - Winner of the series
 - Series Output
@@ -10,7 +10,7 @@ Analyse the ODI match data to predict
 - Maximum Sixes
 - Highest Wicket Taker
 
-# Dataset Used/ Database Creation -
+### Dataset Used/ Database Creation -
 Kaggle ODI Cricket Dataset - https://www.kaggle.com/jaykay12/odi-cricket-matches-19712017<br/>
 Statsguru - http://stats.espncricinfo.com/ci/engine/stats/index.html
 
@@ -21,8 +21,8 @@ CSV is generated for top 50 batsman for India and Australia to **"OverallBatting
 CSV is generated for top 50 bowlers for India and Australia to **"OverallBowling.csv"**.<br/>
 CSV is generated for match data analysis for all the teams (**"originalDataset.csv"**).<br/>
 
-# Solution and Observations -
-## 1. Winner of the series - 
+### Solution and Observations -
+##### 1. Winner of the series - 
 
 **Predicted Winner - India**
 
@@ -41,7 +41,10 @@ India win percentage drops down to 44% against Australia from 60% but India's wi
 Australia win percentage in India is very low i.e. 33%.
 So we can predict the winner of the series as India.
 
-# 2. Series Output -
+![IndiaRecords](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/IndiaRecords.PNG)
+![IndiaRecords](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/IndiaWinPerYear.PNG)
+
+##### 2. Series Output -
 
 **Predicted Series Output - 3-2 (India - Australia)**
 
@@ -66,7 +69,7 @@ IsWon target variable generated based on winner column.
 **Predictiion from model is India will win all the matches. But we have analysed the win percentage of India in home series against Australia is 60% and win percentage of Australia is 33 %.<br/>
 So combinely we can predict series result as 3-2.** 
 
-# 3. Highest Run Scorer -
+##### 3. Highest Run Scorer -
 **Predicted Highest Run Scorer - Virat Kohali**
 
 **Steps Followed -** 
@@ -81,4 +84,75 @@ So combinely we can predict series result as 3-2.**
 - Ambati Rayadu
 - Shikhar Dhawan
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Batsman Analysis as per Avergae](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/BatsmanAverageAnalysis.png)
+
+##### 4. Maximun 4s -
+**Predicted Maximum Fours Scorer - Virat Kohali**
+
+**Steps Followed -** 
+- Dataset selection
+- Data Slicing for current players from India and Australia
+- Generating derived variable fours_per_match
+- Analysis as per fours per match scored
+
+**Highest Fours scored per match for current players from team**
+- Shikhar Dhawan
+- Virat Kohali
+- Rohit Sharma
+- Aron Finch
+- Shaun Marsh
+- Ambati Raydu
+
+![Batsman Analysis as per 4s per match](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/FoursPerMatchAnalysis.png)
+
+##### 5. Maximun 6s -
+**Predicted Maximum Sixes Scorer - Rohit Sharma**
+
+**Steps Followed -** 
+- Dataset selection
+- Data Slicing for current players from India and Australia
+- Generating derived variable sixes_per_match
+- Analysis as per sixes per match scored
+
+**Highest Fours scored per match for current players from team**
+- MP Stoinis
+- Rohit Sharma
+- Hardik Pandya
+- Glenn Maxwell
+- Aron Finch
+- MS Dhoni
+
+![Batsman Analysis as per 6s per match](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/SixesPerMatchAnalysis.png)
+
+##### 6. Highest Wicket Taker -
+**Predicted Highest Wicket Taker - Jasprit Bumrah**
+
+**Steps Followed -** 
+- Dataset selection
+- Data Slicing for current players from India and Australia
+- Generating derived variable four_five_wicket_haul
+- Analysis as per average of bowlers
+- Analysis as per strike rate of bowlers
+- Analysis as per four_five_wicket_haul
+
+**Lowest strike rate for current players from team**
+- Kuldeep Yadav
+- Mohammed Shami
+- Jasprit Bumrah
+- YS Chahal
+- NM Coulter - Nile
+- PJ Cummins
+
+**Highest four and five wicket haul current players from team**
+- Mohammed Shami
+- Jasprit Bumrah
+- Kuldeep Ydav
+- Bhuvaneshwar Kumar
+- PJ Cummins
+- YS Chahal
+
+![Bolwer Analysis Strike Rate](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/BowlersStrkeRateAnalysis.png)
+![Bolwer Analysis Four Wicket Haul](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/FourAndFiveWicketAnalysis.png)
+
+
+
