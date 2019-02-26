@@ -22,7 +22,7 @@ CSV is generated for top 50 bowlers for India and Australia to **"OverallBowling
 CSV is generated for match data analysis for all the teams (**"originalDataset.csv"**).<br/>
 
 ### Solution and Observations -
-##### 1. Winner of the series - 
+### 1. Winner of the series - 
 
 **Predicted Winner - India**
 
@@ -44,7 +44,7 @@ So we can predict the winner of the series as India.
 ![IndiaRecords](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/IndiaRecords.PNG)
 ![IndiaRecords](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/IndiaWinPerYear.PNG)
 
-##### 2. Series Output -
+### 2. Series Output -
 
 **Predicted Series Output - 3-2 (India - Australia)**
 
@@ -69,7 +69,7 @@ IsWon target variable generated based on winner column.
 **Predictiion from model is India will win all the matches. But we have analysed the win percentage of India in home series against Australia is 60% and win percentage of Australia is 33 %.<br/>
 So combinely we can predict series result as 3-2.** 
 
-##### 3. Highest Run Scorer -
+### 3. Highest Run Scorer -
 **Predicted Highest Run Scorer - Virat Kohali**
 
 **Steps Followed -** 
@@ -86,7 +86,7 @@ So combinely we can predict series result as 3-2.**
 
 ![Batsman Analysis as per Avergae](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/BatsmanAverageAnalysis.png)
 
-##### 4. Maximun 4s -
+### 4. Maximun 4s -
 **Predicted Maximum Fours Scorer - Virat Kohali**
 
 **Steps Followed -** 
@@ -105,7 +105,7 @@ So combinely we can predict series result as 3-2.**
 
 ![Batsman Analysis as per 4s per match](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/FoursPerMatchAnalysis.png)
 
-##### 5. Maximun 6s -
+### 5. Maximun 6s -
 **Predicted Maximum Sixes Scorer - Rohit Sharma**
 
 **Steps Followed -** 
@@ -124,7 +124,7 @@ So combinely we can predict series result as 3-2.**
 
 ![Batsman Analysis as per 6s per match](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/SixesPerMatchAnalysis.png)
 
-##### 6. Highest Wicket Taker -
+### 6. Highest Wicket Taker -
 **Predicted Highest Wicket Taker - Jasprit Bumrah**
 
 **Steps Followed -** 
