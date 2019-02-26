@@ -70,7 +70,7 @@ IsWon target variable generated based on winner column.
 So combinely we can predict series result as 3-2.** 
 
 ### 3. Highest Run Scorer -
-**Predicted Highest Run Scorer - Virat Kohali**
+**Predicted Highest Run Scorer - Virat Kohli**
 
 **Steps Followed -** 
 - Dataset selection
@@ -87,7 +87,7 @@ So combinely we can predict series result as 3-2.**
 ![Batsman Analysis as per Avergae](https://github.com/ameykarmarkar/Upgrad_Cricket_Challenge/blob/master/BatsmanAverageAnalysis.png)
 
 ### 4. Maximun 4s -
-**Predicted Maximum Fours Scorer - Virat Kohali**
+**Predicted Maximum Fours Scorer - Virat Kohli**
 
 **Steps Followed -** 
 - Dataset selection
@@ -97,7 +97,7 @@ So combinely we can predict series result as 3-2.**
 
 **Highest Fours scored per match for current players from team**
 - Shikhar Dhawan
-- Virat Kohali
+- Virat Kohli
 - Rohit Sharma
 - Aron Finch
 - Shaun Marsh
